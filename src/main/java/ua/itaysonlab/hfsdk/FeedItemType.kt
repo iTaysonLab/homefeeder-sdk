@@ -7,5 +7,8 @@ enum class FeedItemType {
     TEXT_CARD,
     // TEXT_CARD, but with larger header and actions to click.
     // Added in API 1.
-    TEXT_CARD_ACTIONS
+    TEXT_CARD_ACTIONS,
+    // Story card - a large card adapted for news.
+    // Added in API 2.
+    STORY_CARD
 }
