@@ -19,3 +19,9 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class ua.itaysonlab.hfsdk.FeedItem
+-keep class ua.itaysonlab.hfsdk.FeedItemType
+-keep class ua.itaysonlab.hfsdk.FeedCategory
+-keep class ua.itaysonlab.hfsdk.actions.*
+-keep class ua.itaysonlab.hfsdk.content.*
